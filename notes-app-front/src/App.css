@@ -1,0 +1,99 @@
+.note-heading{
+	border: 1px solid gray;
+    color: #13a73f;
+    width: 20vw;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+    resize: none;
+    max-height: 30px;
+}
+.note-text{
+	border: 1px solid blue;
+    width: 20.6vw;
+	height: auto;
+    min-height: 50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+	text-align: justify;
+    resize: none;
+}
+#note_edit_heading{
+    width: 95%;
+    height: 27px;
+}
+#note_edit_text{
+    width: 90%;
+    margin: 0 5%;
+    min-height: 15vh;
+}
+#date_edit_notification{
+    margin-top: 14px;
+}
+.wrap{
+	width: 21vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: ridge;
+    padding: 25px;
+    background-color: cornsilk;
+}
+.divTime{
+    position: absolute;
+    top: 0;
+    right: 1vw;
+}
+.btn{
+    width: auto;
+    height: auto;
+    min-height: 2rem;
+    background-color: #d8dadb;
+    border-radius: 7px;
+    margin: 7px;
+}
+.date-input{
+    width: 14vw;
+    height: 2rem;
+    margin: 5px;
+    border-radius: 7px;
+    background-color: #e5e5b56e;
+}
+.text-input{
+    height: 2em;
+    margin: 8px;
+    background-color: beige;
+    border-radius: 7px;
+}
+.dates-block{
+    display: flex;
+    width: 31vw;
+}
+.dates{
+    display: flex;
+    flex-flow: column wrap;
+}
+.dates label{
+    margin: 5px;
+}
+.note-input{
+    width: 31vw;
+}
+.note-block{
+    border-style: groove;
+    width: fit-content;
+}
+.wrap-btn-block{
+    display: flex;
+}
+.dates-block-note{
+    display: flex;
+    justify-content: space-between;
+}
+.dates-block-note h5{
+    margin: 0;
+    padding: 0;
+}
