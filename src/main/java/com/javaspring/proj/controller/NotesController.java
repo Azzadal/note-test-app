@@ -53,7 +53,6 @@ public class NotesController {
 
     @DeleteMapping(value = "/delete_note/{id}")
     public void deleteNote(@PathVariable ("id") Integer id){
-//        Note noteDb = notesRepository.findByHeading(heading);
         notesRepository.deleteNote(id);
     }
 }

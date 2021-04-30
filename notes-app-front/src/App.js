@@ -157,8 +157,6 @@ class Output extends React.Component{
             .catch(function (error) {
                 console.log(error);
             });
-        // fetch('http://localhost:8090/delete_note/123345', { method: 'DELETE' })
-        //     .then(() => console.log("удаление"));
     }
 
     render(){
